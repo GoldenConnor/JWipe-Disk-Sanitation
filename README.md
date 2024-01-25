@@ -1,36 +1,58 @@
-<h1>Hi, I'm Golden ! <br/><a href="https://github.com/GoldenConnor", <a href="https://www.linkedin.com/in/golden-connor/">Cybersecurity Professional</a>
+<h1>JWipe - Disk Sanitization</h1>
 
-<h2>👨‍💻 IT Projects:</h2>
 
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
 
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+<h2>Description</h2>
+Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<br />
 
-<h2> Certifications</h2>
 
-CompTia A+ https://www.credly.com/badges/0e0fdf02-fd02-4cd5-8e2d-270f3b5264ae/linked_in_profile
+<h2>Languages and Utilities Used</h2>
 
-CompTIA Network+ https://www.credly.com/badges/a06f1843-579e-4b3c-b4ca-682a9b098ac1/linked_in_profile
+- <b>PowerShell</b> 
+- <b>Diskpart</b>
 
-CompTIA Security+ https://www.credly.com/badges/c78abea5-26c4-4055-a481-2fef554bdcc9/linked_in_profile
+<h2>Environments Used </h2>
 
-CompTIA Secure Infrastructure Specialist https://www.credly.com/badges/bf3fa70b-ce9b-4f02-98bb-5812cbdd787e/linked_in_profile
+- <b>Windows 10</b> (21H2)
 
-AWS Cerified Cloud Practitioner https://www.credly.com/badges/8c1eb462-e666-41a9-8540-fd8330d9c951/linked_in_profile
+<h2>Program walk-through:</h2>
 
-ITIL 4 Foundation Certificate in IT Service Management Certificate Number: GR671587896GC
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
-<h2> 🤳 Connect with me:</h2>
-
-[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="JoshMadakor | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-[linkedin]: https://linkedin.com/in/golden-connor
-
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
